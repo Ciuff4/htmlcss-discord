@@ -12,6 +12,10 @@
     clear: both;
 }
 
+body{
+    font-family:Arial, Helvetica, sans-serif ;
+}
+
 /* UTILITIES */
 
 .container{
@@ -22,13 +26,14 @@
 }
 
 .bttn{
-    position: absolute;
-    right: 0;
-    bottom: 0px;
     background-color: white;
-    border-radius: 10px;
+    border-radius: 20px;
     padding: 5px;
     border-color: white;
+}
+
+.big-bttn{
+    padding: 10px;
 }
 
 /* HEADER */
@@ -65,6 +70,7 @@ nav ul li a {
 
 header .bttn{
     position: absolute;
+    right: 0;
     bottom: 0;
 
 }
@@ -91,6 +97,15 @@ header .bttn{
 
 .jumbo-text h1{
     padding-bottom: 20px;
+}
+
+.jumbotron .jumbo-text .bttn{
+    margin-top: 10px ;
+}
+
+.black-bttn{
+    background-color: black;
+    color: white;
 }
 
 /* MAIN */
