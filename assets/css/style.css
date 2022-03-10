@@ -19,7 +19,6 @@ body{
 /* UTILITIES */
 
 .container{
-    position: relative;
     width: 80%;
     height: 100%;
     margin: 0 auto;
@@ -40,21 +39,37 @@ body{
     float: left;
 }
 
+section{
+    padding-top: 50px;
+}
+
+svg{
+    filter: grayscale(1);
+}
+
 /* HEADER */
 header{
     width: 100%;
     background-color: #3161E0;
 }
 
-header .container img{
-    position: absolute;
-    bottom: 0;
-    left: 0;
+header .container{
+    height: 60px;
+}
+
+header .container a img{
+    float: left;
 }
 
 /* NAV */
 
+nav{
+    float: left;
+    padding: 0 13%;
+}
+
 nav ul{
+
     list-style: none;
     text-align: center;
 }
@@ -73,9 +88,7 @@ nav ul li a {
 /* /NAV */
 
 header .bttn{
-    position: absolute;
-    right: 0;
-    bottom: 0;
+    float: left;
 
 }
 /* /HEADER */
@@ -108,7 +121,7 @@ header .bttn{
 }
 
 .black-bttn{
-    background-color: black;
+    background-color: #23272A;
     color: white;
 }
 
@@ -145,7 +158,7 @@ section{
 /* FOOTER */
 
 footer{
-    background-color: black;
+    background-color: #23272A;
 }
 
 footer .container{
