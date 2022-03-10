@@ -38,7 +38,6 @@ body{
 
 .col{
     float: left;
-    width: 50%;
 }
 
 /* HEADER */
@@ -92,17 +91,16 @@ header .bttn{
 }
 
 .jumbo-text{
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+    margin: 0 auto;
     text-align: center;
     width: 60%;
+    padding-top: 150px;
     color: white;
 }
 
 .jumbo-text h1{
-    padding-bottom: 20px;
+    padding-bottom: 30px;
+    font-size: 30px;
 }
 
 .jumbotron .jumbo-text .bttn{
@@ -119,13 +117,17 @@ main section.gray-bckgrnd{
     background-color: lightgray
 }
 
-main section .col img{
+.img-col{
+    width: 60%;
+}
+
+main section .img-col img{
     width: 100%;
 }
 
-main section .col .text-col{
+.text-col{
     width: 40%;
-    padding-top: 20px;
+    padding-left: 160px;
 }
 
 section{
