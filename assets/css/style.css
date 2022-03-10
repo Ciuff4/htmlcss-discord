@@ -36,6 +36,11 @@ body{
     padding: 10px;
 }
 
+.col{
+    float: left;
+    width: 50%;
+}
+
 /* HEADER */
 header{
     width: 100%;
@@ -83,6 +88,7 @@ header .bttn{
     background-position: center;
     background-size: cover;
     height:500px;
+    margin-bottom: 60px;
 }
 
 .jumbo-text{
@@ -113,4 +119,62 @@ main section.gray-bckgrnd{
     background-color: lightgray
 }
 
+main section .col img{
+    width: 100%;
+}
+
+main section .col .text-col{
+    width: 40%;
+    padding-top: 20px;
+}
+
+section{
+    padding-bottom: 50px;
+}
+
+.last-section{
+    text-align: center;
+}
+
+.last-section .bttn{
+    background-color: #8EA1E1;
+}
+
 /* FOOTER */
+
+footer{
+    background-color: black;
+}
+
+footer .container{
+    padding-top: 50px;
+}
+
+footer .aside {
+    width: 30%;
+}
+
+footer .side{
+    width: 70%;
+}
+
+footer .side .ftr-nav{
+    width: 25%;
+}
+
+footer h4 , footer h3{
+    color: #778FE4;
+}
+
+footer .container .col ul {
+    list-style: none;
+}
+
+footer .container .col ul li{
+    padding: 10px 0;
+}
+
+footer .container .col ul li a{
+    text-decoration: none;
+    color:white ;
+}
