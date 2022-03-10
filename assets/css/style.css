@@ -168,6 +168,18 @@ footer h4 , footer h3{
     color: #778FE4;
 }
 
+.flag{
+    width: 10%;
+}
+
+i, span{
+    color: white;
+}
+
+.social{
+    padding-right: 10px;
+}
+
 footer .container .col ul {
     list-style: none;
 }
@@ -179,4 +191,15 @@ footer .container .col ul li{
 footer .container .col ul li a{
     text-decoration: none;
     color:white ;
+}
+
+hr{
+    color: #495781;
+    margin: 30px 0;
+}
+
+.bottom-ftr button{
+    background-color: #8EA1E1;
+    color: white;
+    float:right
 }
