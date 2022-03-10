@@ -145,6 +145,7 @@ main section .img-col img{
 .text-col{
     width: 40%;
     padding-left: 160px;
+    padding-top: 30px;
 }
 
 section{
