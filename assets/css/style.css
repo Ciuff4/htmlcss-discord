@@ -43,8 +43,12 @@ section{
     padding-top: 50px;
 }
 
-svg{
-    filter: grayscale(1);
+.wave{
+    color: lightgray;
+}
+
+.wave.upsidedown{
+    transform: rotate(180deg);
 }
 
 /* HEADER */
